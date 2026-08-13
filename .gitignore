@@ -1,0 +1,41 @@
+# ── Local-only (do not push) ──────────────────────────────────
+/docs/
+/PhotoPCBStudio_v1.0_windows_x64.zip
+
+# ── Build output ──────────────────────────────────────────────
+/debug/
+/release/
+/build*/
+/.qmake.stash
+/Makefile
+/Makefile.Debug
+/Makefile.Release
+/ui_*.h
+/moc_*.cpp
+/moc_*.o
+/*.o
+/*.obj
+*.exe
+
+# ── Packaged releases (uploaded as GitHub Release assets) ─────
+/PhotoPCBStudio_windows_*/
+/*.zip
+
+# ── Qt Creator ────────────────────────────────────────────────
+/*.pro.user
+/*.pro.user.*
+/.qtc_clangd/
+
+# ── IDE / editor ──────────────────────────────────────────────
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+
+# ── Runtime temp files ────────────────────────────────────────
+/temp/
+/*.pcblg.tmp
